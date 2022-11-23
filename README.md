@@ -1,5 +1,5 @@
-# Detonadores de Derivadas
+# Detonadores de Derivadas Speerun
 
-Jogo desenvolvido para auxiliar estudantes de cálculo a aprenderem a **rule of thumb** das derivadas, sabendo derivas todas as funções polinomiais.
+Ao contrário da versão "normal", na versão speedrun o foco é a velocidade em que o usuário consegue derivar as funções.
 
-Esse jogo não cobre funções trigonométricas ou regras de produto e divisão nas versões atuais, porém dependendo do feedback recebido nessa versão, há a possibilidade de aumentar a quantidade de funções que o jogo ensina a derivar.
+Ao todo são 45 funções, e ao terminá-las, o seu tempo e seu nome são enviados para o nosso servidor, para que ele possa computar o seu tempo e posicionar o ranking e derivadores mais rápidos.
