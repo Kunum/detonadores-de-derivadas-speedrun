@@ -1,0 +1,24 @@
+/*Mobile*/
+@media only screen and (max-width: 768px){
+    #intro-text-div{
+      width: 80vw;
+      margin-top: 10%;
+    }
+    
+    #start-button{
+      margin-top: 5%;
+    }
+  }
+  
+/*Desktop*/
+  @media only screen and (min-width: 768px){
+    #intro-text-div{
+      width: 50vw;
+      margin-top: 5%;
+    }
+    
+    #start-button{
+      margin-top: 5%;
+    }
+}
+  

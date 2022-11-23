@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Expanded&display=swap');
+
+:root{
+  --bg:#2C130E;
+  --mc:#ccbebb;
+}
+
+body {
+  margin: 0;
+  font-family: 'Stint Ultra Expanded', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg);
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+button{
+  font-family: 'Stint Ultra Expanded', cursive;
+}
+
+path{
+  fill: white;
+}
+
+.icon-button{
+  background-color: transparent;
+  border: 0px;
+}
+
+.squared-button{
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+}
+
+.squared-div{
+  border: 3px solid white;
+  padding: 1%;
+}
+
+.squared-button:active, .keybeingpressed{
+  background-color: white;
+  color: var(--bg);
+}
+
+.underlined{
+  text-decoration: underline;
+}
+
+.horizontaly-centered{
+  display: flex;
+  align-items: center;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px){
+  h1{
+    font-size: 5.5vw;
+  }
+  
+  p, a{
+    font-size: 5vw;
+  }
+  
+  button{
+    font-size: 5vw;
+  }
+
+  .small-text, .small-text p{
+    font-size: 3vw !important;
+  }
+
+  .expoente{
+    font-size: 15px;
+  }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 768px){
+  h1{
+    font-size: 2.3vw;
+  }
+  
+  p, a{
+    font-size: 2vw;
+  }
+  
+  button{
+    font-size: 2vw;
+  }
+
+  .small-text, .small-text p{
+    font-size: 1.5vw !important;
+  }
+
+  .expoente{
+    font-size: 20px;
+  }
+}
